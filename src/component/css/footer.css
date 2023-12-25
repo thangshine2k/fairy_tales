@@ -1,0 +1,493 @@
+
+ .footer {
+    padding: 100px 120px 6px;
+}
+@media screen and(max-width: 1159px){
+.common-hover a:hover{
+    color: #008f79;
+    text-decoration: underline;
+}
+.line_top{
+    display: flex;
+}
+
+.line_top h1{
+    display: flex;
+    font-size: 16px;
+    color: #000;
+}
+.line_top a{
+    font-size: 13px;
+    margin-top: 15px;
+    position: relative; 
+    top: -16px;
+}
+h1 {
+    white-space: nowrap;
+}
+
+.contact{
+    padding-right: 90px;
+}
+
+.cars_and_property{
+    padding-right: 90px;
+}
+
+.fashion{
+    padding-right: 90px;
+}
+
+.home_and_living{
+    padding-right: 90px;
+}
+
+.electronics_and_moblies{
+    padding-right: 90px;
+}
+
+.line_bottom{
+    display: flex;
+    padding-left: 188px;
+}
+.line_bottom h1{
+    font-size: 16px;
+    color: #000;
+}
+.line_bottom a{
+    font-size: 13px;
+    margin-top: 15px;
+    position: relative; 
+    top: -16px;
+}
+.jobs_and_services{
+    padding-right: 62px;
+}
+.img-language{
+    display: flex;
+}
+.end-page{
+    display: flex;
+}   
+.img-carousell-end{
+    width: 25%;
+}
+.img-languages{
+    display: flex;
+    position: relative;
+    padding-left: 300px;
+}
+.img-languages img {
+    width: 28px;
+    height: 25px;
+}
+
+.end-introduce{
+    display: -webkit-inline-box;
+    position: relative;
+    z-index: 1;
+}
+
+.end-introduce a{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 8px;
+    margin-top: 2px;
+  }
+  .end-introduce a1 {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 8px;
+    margin-top: 2px;
+  }
+
+  .end-introduce a::before {
+    content: "\2022"; 
+    display: inline-block;
+    width: 4px; 
+    text-align: center;
+    margin-right: 6px;
+  }
+
+  .end-introduce h1 {
+    font-size: 8px;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-top: -5px;    
+}
+
+
+.english-button {
+    position: relative;
+    width: 132px;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    background-color: #fff;
+    border: none;
+    top: -4px;
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+  .english-button:hover {
+    box-shadow: 0 0 0 4px rgba(205, 204, 204, 0.8);
+  }
+
+  .img-language1,
+  .img-language2,
+  .img-language3,
+  .img-language4,
+  .img-language5,
+  .img-language6,
+  .img-language7,
+  .img-language8,
+  .img-language9 {
+    float: right;
+    margin-right: 6px;
+  }
+
+.english-button i {
+    position: relative;
+    top: -32px;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 9px;
+    padding-left: 108px;
+}
+.english-text {
+    position: relative;
+    font-size: 14px;
+    padding-right: 88px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    margin-top: -2px;
+}
+}
+
+@media screen and (min-width: 1160px){
+.common-hover{
+    margin-top: 60  px;
+}
+.common-hover a:hover{
+    color: #008f79;
+    text-decoration: underline;
+}
+.line_top{
+    display: flex;
+}
+
+.line_top h1{
+    display: flex;
+    font-size: 16px;
+    color: #000;
+}
+.line_top a{
+    font-size: 13px;
+    margin-top: 15px;
+    position: relative;
+    top: -16px;
+}
+h1 {
+    white-space: nowrap;
+}
+
+.contact{
+    padding-right: 90px;
+}
+
+.cars_and_property{
+    padding-right: 90px;
+}
+
+.fashion{
+    padding-right: 90px;
+}
+
+.home_and_living{
+    padding-right: 90px;
+}
+
+.electronics_and_moblies{
+    padding-right: 90px;
+}
+
+.line_bottom{
+    display: flex;
+    padding-left: 188px;
+}
+.line_bottom h1{
+    font-size: 16px;
+    color: #000;
+}
+.line_bottom a{
+    font-size: 13px;
+    margin-top: 15px;
+    position: relative; /* đảm bảo rằng thẻ a có một vị trí tương đối để di chuyển */
+    top: -16px; /* di chuyển thẻ a lên trên 20px */
+}
+.jobs_and_services{
+    padding-right: 62px;
+}
+.img-language{
+    display: flex;
+}
+.end-page{
+    display: flex;
+}   
+.img-carousell-end{
+    width: 25%;
+}
+.img-languages{
+    display: flex;
+    position: relative;
+    padding-left: 300px;
+    margin-right: 36px;
+}
+.img-languages img {
+    width: 28px;
+    height: 25px;
+}
+
+.end-introduce{
+    display: -webkit-inline-box;
+    position: relative;
+    z-index: 1;
+}
+
+.end-introduce a{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 8px;
+    margin-top: 2px;
+  }
+  .end-introduce a1 {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    padding-left: 8px;
+    margin-top: 2px;
+  }
+
+  .end-introduce a::before {
+    content: "\2022"; /* Mã Unicode của dấu chấm đen */
+    display: inline-block;
+    width: 4px; /* Điều chỉnh kích thước của biểu tượng tại đây */
+    text-align: center;
+    margin-right: 6px;
+  }
+
+  .end-introduce h1 {
+    font-size: 8px;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-top: -5px;    
+}
+
+
+.english-button {
+    position: relative;
+    width: 132px;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    background-color: #fff;
+    left: 16px;
+    border: none;
+    top: -4px;
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+  .english-button:hover {
+    box-shadow: 0 0 0 4px rgba(205, 204, 204, 0.8);
+  }
+
+  .img-language1,
+  .img-language2,
+  .img-language3,
+  .img-language4,
+  .img-language5,
+  .img-language6,
+  .img-language7,
+  .img-language8,
+  .img-language9 {
+    float: right;
+    margin-right: 8px;
+  }
+
+.english-button i {
+    position: relative;
+    top: -32px;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 9px;
+    padding-left: 108px;
+}
+.english-text {
+    position: relative;
+    font-size: 14px;
+    padding-right: 88px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    margin-top: -2px;
+}
+
+.flex-img{
+    display: flex;
+    width: calc(100%);
+    padding-left: 300px;  
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+.flex-img img {
+    width: 116px;
+    height: 116px;
+}
+.flex-img1{
+    position: relative;
+    right: 200px;
+}
+.flex-img2{
+    position: relative;
+    right: 40px;
+}
+.flex-img3{ 
+    position: relative;
+    left: 100px;
+}
+
+.f-stars{
+    width: 8%;
+}
+.footer-stars{
+    display: flex;
+    padding-bottom: 120px;
+}
+.footer-stars h2 {
+    font-size: 24px;
+    display: block;
+}
+.footer-contents{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.awesome-community{
+    width: 250px;
+}
+.decluttering{
+    width: 250px;
+    padding-left: 70px;
+}
+
+.great-for-the-earth{
+    width: 250px;
+    padding-left: 70px;
+}
+.easy-to-buy-and-sell{
+    width: 250px;
+    padding-left: 70px;
+}
+
+.awesome-community h2{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.decluttering h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content-f {
+    position: relative;
+    line-height: 1.6;
+    top: -8px;
+}  
+.content-g {
+    position: relative;
+    top: -8px;
+    line-height: 1.6;
+}  
+
+.great-for-the-earth h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.easy-to-buy-and-sell h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+.title-footer{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.background-footer{
+    position: relative;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-image: url(https://storage.googleapis.com/carousell-sl/homescreens/main/carousell_qrcode_background.png);
+    width: 98%;
+}
+
+.title-introduce{
+    position: relative;
+    color: #fff;
+    font-size: 32px;
+    left: 600px;
+    top: -290px;
+}
+.title-introduce-bottom{
+    position: relative;
+    font-size: 20px;
+    left: 600px;
+    top: -290px;
+    color: #fff;
+    padding-top: 32px;
+    opacity: 0.9;
+}
+
+.qr-cat{
+    padding-left: 200px;
+    width: 360px;
+    padding-top: 30px;
+}
+
+.qr-apple-store{
+    position: relative;
+    left: 600px;
+    top: -256px;
+}
+.qr-gplay{
+    position: relative;
+    left: 600px;
+    top: -256px;
+}
+.qr-apple-store img{
+    width: 190px;
+}
+.qr-gplay img {
+    width: 190px;
+}
+
+.qr-branch{
+    width: 116px;
+    position: relative;
+    left: 803px;
+    top: -379px;
+    border-color: #fff;
+}
+.qr-branch img{
+    border-radius: 8px;
+}
+} 

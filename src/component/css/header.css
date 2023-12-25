@@ -1,0 +1,85 @@
+.nav {
+    display: flex;
+    margin: 24px 24px;
+    position: relative;
+    left: 120px;
+}   
+.nav-img {
+    width: 15%;
+    position: relative;
+}
+.nav-img img{
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -50px;
+}
+.nav .nav-name{
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-name a {
+    color: #000;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.nav-name a:hover {
+    background-color: #f2ebeb;
+}
+.nav-name .nav-midde-name a{
+    margin-left: 30px;
+    display: flex;
+}
+.nav-midde-name{
+    display: flex;
+}
+.nav-right{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    left: 302px;
+    width: 90%;
+    right: 10px;
+}
+.nav-right-name {
+    position: relative;
+}
+.nav-right-name a{
+    position: relative;
+    right: 24px;
+    top: 5px;
+}
+
+.nav-sell{
+    position: relative;
+    background-color: #ff2636;
+    color: #fff;
+    width: 62px;
+    border-radius: 4px;
+    height: 32px;
+    font-weight: 700;
+}
+.nav-sell span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav-sell:hover{
+    background-color: #dc121f;
+}
+
+.nav-right a {
+    color: #000;
+    position: relative;
+    opacity: 0.7;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.nav-right a:focus {
+    color: rgb(1, 0, 0);
+}
