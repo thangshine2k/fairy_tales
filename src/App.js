@@ -107,9 +107,10 @@ function App() {
       <Router>
         <div className="container">
           <Switch>
-            <Route exact path="/">
+            {/* <Route exact path="/">
               <Home />
-            </Route>
+            </Route> */}
+           <Route exact path="/" component={Home}></Route>
             <Route path="/edit" component={CrudProduct}></Route>
             <Route path="/add-product/:id" component={AddProduct}></Route>
             <Route path="/update-product" component={UpdateProduct}></Route>

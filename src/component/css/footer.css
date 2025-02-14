@@ -119,8 +119,29 @@ h1 {
     font-size: 12px;
     margin-top: -5px;    
 }
-
-
+.vietnamese-button{
+    position: relative;
+    width: 162px;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    background-color: #fff;
+    border: none;
+    top: -4px;
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.vietnamese-button:hover {
+    box-shadow: 0 0 0 4px rgba(205, 204, 204, 0.8);
+  }
+  .vietnamese-button i {
+    position: relative;
+    top: -32px;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 9px;
+    padding-left: 108px;
+}
 .english-button {
     position: relative;
     width: 132px;
@@ -289,8 +310,30 @@ h1 {
     font-size: 12px;
     margin-top: -5px;    
 }
-
-
+.vietnamese-button {
+    position: relative;
+    width: 132px;
+    height: 30px;
+    float: right;
+    padding-top: 10px;
+    background-color: #fff;
+    left: 16px;
+    border: none;
+    top: -4px;
+    box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+  .vietnamese-button:hover {
+    box-shadow: 0 0 0 4px rgba(205, 204, 204, 0.8);
+  }
+  .vietnamese-button i {
+    position: relative;
+    top: -16px;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 9px;
+    padding-left: 108px;
+}
 .english-button {
     position: relative;
     width: 132px;
@@ -323,7 +366,7 @@ h1 {
 
 .english-button i {
     position: relative;
-    top: -32px;
+    top: -16px;
     right: 5px;
     transform: translateY(-50%);
     font-size: 9px;
