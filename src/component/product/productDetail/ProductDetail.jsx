@@ -31,7 +31,7 @@ function ProductDetail({ products }) {
 
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const [isMenuClose, setMenuClose] = useState(false);
+  // const [isMenuClose, setMenuClose] = useState(false);
 
   const { id } = useParams();
 
